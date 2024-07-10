@@ -14,6 +14,7 @@ This project uses the REST API. The second project uses the MERN stack and the A
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Credits](#credits)
 - [License](#license)
 - [Link to website](#website)
 
@@ -25,3 +26,7 @@ The following packages have to be installed:
 
 ## Usage
 This project allows the user to search for books. 
+
+## Credits
+1. The project is a modified version of the starter code presented by UPenn Bootcamp. The link to its repository is [https://github.com/coding-boot-camp/cautious-meme](https://github.com/coding-boot-camp/solid-broccoli).
+
