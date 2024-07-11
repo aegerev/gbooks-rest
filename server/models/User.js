@@ -47,3 +47,7 @@ userSchema.methods.isCorrectPassword = async function(password) {
 userSchema.virtual('bookCount').get(function() {
     return this.savedBooks.length;
 });
+
+const User = model('User', userSchema);
+
+module.exports = User;
