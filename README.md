@@ -5,11 +5,7 @@
 
 ## Description
 
-This project was created to search for books.
-
-This is the first out of 2 "editions" of the Google Books project. 
-
-This project uses the REST API. The second project uses the MERN stack and the Apollo server.
+This project was created to search for books using the REST API.
 
 ## Table of Contents
 - [Installation](#installation)
