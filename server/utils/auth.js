@@ -1,6 +1,6 @@
-import jwt from 'jsonwebtoken'
+const jwt = require('jsonwebtoken');
 
-const secretPhrase = 'arielisthebest'
+const secretPhrase = 'newAtlantica2024'
 const expireTime = '4h'
 
 module.exports = {

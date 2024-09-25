@@ -1,6 +1,12 @@
-import router from ('express').Router();
-import {createUser, getSingleUser, saveBook, deleteBook, login} from '../../controllers/user-controller';
-import authMiddleware from '../../utils/auth.js';
+const router = require('express').Router();
+const {
+  createUser,
+  getSingleUser,
+  saveBook,
+  deleteBook,
+  login,
+} = require('../../controllers/user-controller');
+
 
 router.route('/').post(createUser).put(authMiddleware, saveBook);
 
